@@ -1,0 +1,92 @@
+.navbar {
+    margin: 0;
+    height: 30px;
+    border-radius: 4px;
+}
+.navbar .logo {
+    z-index: 1000;
+    margin-left: 268px;
+    position: absolute;
+}
+.carousel-inner .item img {
+    width: 100%;
+}
+.thumbnail {
+    border: none;
+}
+.intro .title {
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin: 40px 0;
+}
+.journal .title {
+    text-transform: uppercase;
+    text-align: left;
+    display: block;
+    margin: 40px 0 10px 0;
+}
+.journal .description {
+    font-family: 'Open Sans';
+}
+
+.journal .post .meta {
+    text-align: center;
+    padding: 0;
+}
+.journal .post .meta .date .day {
+    font-size: 30px;
+    font-family: 'Open Sans';
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.journal .post .meta .date .month {
+    font-size: 15px;
+}
+.journal .post .meta .likes .amount {
+    font-size: 17px;
+    font-family: 'Edmondsans';
+    color: rgb(223, 157, 157);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.journal .post .meta .likes .heart {
+    font-size: 17px;
+    font-family: "Edmondsans";
+    color: rgb(223, 157, 157);
+    font-weight: bold;
+}
+.journal .post .meta .date{
+    border-bottom: 1px solid #c3c3c3 ;
+}
+.journal .post .content {
+    padding: 0;
+}
+.journal .post .thumbnail {
+    border-left: 1px solid #c3c3c3;
+    border-radius: 0;
+}
+.journal .post .thumbnail img {
+    margin:20px;
+    width: 370px;
+    height: 190px;
+}
+.journal .post .thumbnail {
+    text-align: left;
+    font-family: 'Open Sans';
+    display: inline-block;
+
+}
+.journal .post .thumbnail .title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    text-align: left;
+    display: block;
+    margin: 0;
+    font-weight: bold;
+}
+.journal .post .thumbnail .caption {
+    border-top: 1px solid #c3c3c3;
+}
